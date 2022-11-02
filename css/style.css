@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 0 4.8rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7f5ff;
+}
+
+/* .header .logo {
+  height: 3rem;
+} */
+
+.navbar-list {
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+  transition: all 0.3s;
+  /* background-color: #e7f5ff; */
+  ;
+}
+
+.active
+{
+  color: #364fc7 !important;
+  text-decoration: underline !important;     
+  text-decoration-color: blue !important;
+
+}
+.navbar-link:hover
+{
+  /* background-color: rgb(86, 94, 94); */
+  /* background-color: #666; */
+  color: #364fc7;
+   
+
+}
+
+.mobile-navbar-btn {
+  /* display: none; */
+  background: transparent;
+  cursor: pointer;
+}
+
+.mobile-nav-icon {
+  width: 4rem;
+  height: 4rem;
+  color: #212529;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
+/* ===========================================
+Hero and Service Section Start
+======================================= */
+.section-hero,
+.section-services {
+  padding: 9.6rem 0;
+  background-color: #a5d8ff;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-services {
+  background: #f3f0ff;
+}
+
+.section-hero p,
+.section-services p {
+  font-size: 3.2rem;
+}
+
+/* ===========================================
+Responsive Codes 
+======================================= */
+
+/* 980px  */
+
+
+/* Below 560px  */
